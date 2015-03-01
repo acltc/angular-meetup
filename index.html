@@ -17,6 +17,9 @@
         <ul>
           <li ng-repeat="task in tasks">{{ task }}</li>
         </ul>
+
+        <input ng-model="newTask">
+        <button ng-click="addTask(newTask)">Add Task</button>
       </div>
     </div>
 
