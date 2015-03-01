@@ -15,7 +15,7 @@
 
         <h2>Todo:</h2>
         <ul>
-          <li ng-repeat="task in tasks">{{ task }}</li>
+          <li ng-repeat="task in tasks" ng-click="deleteTask(task)">{{ task }}</li>
         </ul>
 
         <input ng-model="newTask">
