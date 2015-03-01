@@ -5,5 +5,7 @@
 
     $scope.message = "Hello World!";
 
+    $scope.tasks = ["Take out trash", "Create trash", "Mow the lawn"];
+
   });
 })();
