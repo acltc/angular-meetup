@@ -20,6 +20,21 @@
 
         <input ng-model="newTask">
         <button ng-click="addTask(newTask)">Add Task</button>
+
+        
+        <table border="1" >
+          <tr>
+            <th>Job Title</th>
+            <th>Name</th>
+            <th>Salary</th>
+          </tr>
+          <tr ng-repeat="cityWorker in cityWorkers">>
+            <td>  {{ cityWorker.job_titles }} </td>
+            <td> {{ cityWorker.name }} </td>
+            <td> {{ cityWorker.employee_annual_salary }} </td>
+        </table>
+
+        
       </div>
     </div>
 
